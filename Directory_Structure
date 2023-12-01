@@ -1,0 +1,14 @@
+my_robot_simulation/
+|-- src/
+|   |-- my_robot_description/
+|   |   |-- urdf/
+|   |   |   |-- my_robot.urdf
+|   |-- my_robot_gazebo/
+|   |   |-- launch/
+|   |   |   |-- my_robot_gazebo.launch
+|   |   |-- world/
+|   |   |   |-- my_world.world
+|   |   |-- plugins/
+|   |   |   |-- my_robot_plugin.cpp
+|-- CMakeLists.txt
+|-- package.xml
